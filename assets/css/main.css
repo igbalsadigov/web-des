@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid gray;
+  background-color: #3d5a80;
+  height: 60px;
+}
+
+.firstContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.firstContainer h1 {
+  font-family: "Inter";
+  color: white;
+}
+.firstContainer nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.firstContainer nav button {
+  width: 115px;
+  background-color: #EE6C4D;
+  font-family: "Inter";
+  color: white;
+}
+.firstContainer nav ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.firstContainer nav ul i {
+  display: none;
+}
+.firstContainer nav ul li {
+  list-style-type: none;
+}
+.firstContainer nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Inter";
+  color: white;
+}
+
+#firstSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d5a80;
+  padding-top: 180px;
+}
+#firstSection .secondContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+#firstSection .secondContainer .iamgeBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#firstSection .secondContainer .iamgeBox .pht {
+  z-index: 1;
+}
+#firstSection .secondContainer .iamgeBox .ellipse {
+  position: absolute;
+}
+#firstSection .secondContainer .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#firstSection .secondContainer .text h3 {
+  font-size: 35px;
+  font-family: "Inter";
+  color: white;
+}
+#firstSection .secondContainer .text p {
+  font-family: "Inter";
+  color: white;
+}
+#firstSection .secondContainer .text button {
+  width: 140px;
+  height: 40px;
+  font-family: "Inter";
+  background-color: #EE6C4D;
+  color: white;
+}
+
+#secondSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #293241;
+  height: 500px;
+}
+#secondSection .thiridContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+#secondSection .thiridContainer p {
+  width: 80%;
+  font-family: "Inter";
+  color: white;
+}
+#secondSection .thiridContainer .textDecore {
+  border-bottom: 2px solid #EE6C4D;
+  width: 80%;
+  font-family: "Inter";
+  color: white;
+}
+#secondSection .thiridContainer img {
+  width: 300px;
+}
+
+#thiridSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  background-color: #2F3746;
+}
+#thiridSection .forthContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+#thiridSection .forthContainer .textt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Inter";
+  color: white;
+}
+#thiridSection .forthContainer .textt h3 {
+  border-bottom: 2px solid #EE6C4D;
+}
+
+#forthSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #293241;
+}
+#forthSection .fiveContainer {
+  display: flex;
+  width: 60%;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#forthSection .fiveContainer button {
+  height: 50px;
+  width: 220px;
+  border-color: #EE6C4D;
+  background-color: #293241;
+  color: white;
+  font-size: 20px;
+  font-family: "Inter";
+}
+#forthSection .fiveContainer .abc {
+  display: flex;
+  justify-content: left;
+  border-bottom: 2px solid #EE6C4D;
+}
+#forthSection .fiveContainer .abc h1 {
+  font-family: "Inter";
+  color: white;
+}
+#forthSection .fiveContainer .photoo {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#forthSection .fiveContainer .photoo .ggg {
+  gap: 10px;
+  flex-direction: column;
+  display: flex;
+}
+#forthSection .fiveContainer .photoo .ggg span {
+  font-size: 20px;
+  font-family: "Inter";
+  color: white;
+}
+
+#www {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2F3746;
+  margin-bottom: 20px;
+  height: 400px;
+}
+#www .containerr {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+#www .containerr .classs {
+  font-family: "Inter";
+  color: white;
+}
+#www .containerr .noqte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: white;
+}
+#www .containerr .noqte #f {
+  color: #EE6C4D;
+}
+#www .containerr .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#www .containerr .images i {
+  font-size: 35px;
+  color: white;
+}
+#www .containerr .classs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#www .containerr .classs h1 {
+  border-bottom: 2px solid #EE6C4D;
+  font-size: 35px;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #3D5A80;
+}
+#input .containerInp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+#input .containerInp .btnInp {
+  width: 100%;
+}
+#input .containerInp .btnInp button {
+  padding: 15px;
+  width: 10%;
+  color: white;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: rgb(255, 115, 0);
+  border: none;
+}
+#input .containerInp .textInp {
+  width: 100%;
+}
+#input .containerInp .textInp h1 {
+  color: white;
+  width: 300px;
+  font-size: 23px;
+  font-family: "Inter";
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgb(255, 115, 0);
+}
+#input .containerInp .secondInp {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 10px;
+  display: flex;
+  gap: 10px;
+  color: rgb(141, 139, 139);
+}
+#input .containerInp .secondInp input {
+  width: 50%;
+  height: 30px;
+  background-color: #26384F;
+  border: none;
+  padding-left: 10px;
+}
+#input .containerInp .finInp {
+  background-color: #EE6C4D;
+  width: 100%;
+}
+#input .containerInp .finInp input {
+  background-color: #26384F;
+  border: none;
+  padding-left: 10px;
+  width: 100%;
+  height: 120px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #293241;
+  height: 70px;
+  border: 1px solid rgba(0, 0, 0, 0.1215686275);
+}
+footer .countainerFin {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  align-items: center;
+}
+footer .countainerFin p {
+  color: white;
+}
+footer .countainerFin .logo {
+  font-size: 10px;
+  color: white;
+  font-family: "Inter";
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  header .firstContainer nav li {
+    display: none;
+  }
+  header .firstContainer nav ul i {
+    display: block;
+  }
+}
